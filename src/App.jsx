@@ -1,10 +1,15 @@
 import { Objectfit } from "./object-fit/Objectfit";
 import { Table } from "./Table/Table";
 import { Animation } from "./Animation/Animation";
-import { GridArea } from "./Grid-Area/GridArea";
+//
+/* import { GridArea } from "./Grid-Area/GridArea";
 import "./Grid-Area/grid-area.css";
+//
 import { Scss } from "./scss/Scss";
-import "./scss/css/main.css";
+import "./scss/css/main.css"; */
+//
+import { HtmlRecipe } from "./HtmlRecipe/HtmlRecipe";
+
 export function App() {
   return (
     <div className="min-h-screen ">
@@ -12,7 +17,8 @@ export function App() {
       {/* <Table /> */}
       {/* <Animation /> */}
       {/* <GridArea /> */}
-      <Scss />
+      {/* <Scss /> */}
+      <HtmlRecipe />
     </div>
   );
 }
